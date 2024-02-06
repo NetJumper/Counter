@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif; /* Modern font */
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    border: 2px solid rgb(0, 0, 0); /* Added border for clarity */
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px; /* Added padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.count {
+    color: #59dd94;
+    text-transform: uppercase;
+    margin-bottom: 15px; /* Spacing below the title */
+}
+
+#counter-value {
+    background-image: linear-gradient(to right, cyan, deepskyblue);
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 50px; /* Adjusted for a better look */
+    height: 30px; /* Adjusted for a better look */
+    line-height: 30px; /* Vertically center the text */
+    margin-bottom: 15px; /* Spacing below the counter */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around; /* Space around for even distribution */
+    width: 100%; /* Full width of parent */
+}
+
+button {
+    border: 2px solid black;
+    background-color: rgb(2, 255, 200);
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: red;
+}
